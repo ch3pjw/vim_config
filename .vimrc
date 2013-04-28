@@ -1,5 +1,15 @@
 "Line numbers on:
 set nu
+set history=1000
+"Show line,column percentage% at the bottom
+set ruler
+
+"Handle backgrounded buffered better
+set hidden
+"Make the terminal title reflect the current file
+set title
+"Stifle interruptive prompts such as "Press ENTER or type command to continue"
+set shortmess=atI
 
 "Set up colours nicey:
 set t_Co=256
@@ -22,9 +32,21 @@ match OverLength /\%80v.\+/
 "Highlight current line:
 set cursorline
 highlight CursorLine cterm=underline
+"Add more context around the current line when scrolling
+set scrolloff=3
 
 "Make braket matching less visually confusing:
 highlight MatchParen cterm=bold ctermbg=black ctermfg=white
+"Match more things for jumping with %
+runtime macros/matchit.vim
+
+"Hightlight search patterns and do so as they are typed
+set hlsearch
+set incsearch
+
+"Swap ` and ' so that jumping to marks jumps to the line AND column with '
+nnoremap ' `
+nnoremap ` '
 
 set smartindent
 set autoindent
