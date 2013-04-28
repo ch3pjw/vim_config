@@ -20,8 +20,10 @@ GuiColorScheme rdark
 highlight ExtraWhitespace ctermbg=red guibg=red
 autocmd Syntax * syn match ExtraWhitespace /\s\+$\| \+\ze\t/
 
-"Highlight 81st column:
-execute "set colorcolumn=".join(range(81, 335), ',')
+"Set the textwidth, turn off automatic wrapping and highlight a column:
+set textwidth=79
+set formatoptions-=t
+set colorcolumn=+2
 highlight ColorColumn ctermbg=235
 
 "Highlight overlength lines:
