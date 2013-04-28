@@ -1,11 +1,3 @@
-"Settings for eclim
-"let g:EclimProjectTreeAutoOpen = 1
-"let g:EclimProjectTreeExpandPathOnOpen = 1
-"let g:EclimProjectTreeSharedInstance = 1
-
-"-----------------------------------------
-" General settings:
-"-----------------------------------------
 "Line numbers on:
 set nu
 
