@@ -34,8 +34,7 @@ hi ICursor guibg=#babdb6
 
 " Search
 hi Search guifg=#2e3436 guibg=#fcaf3e
-"hi IncSearch guibg=#2e3436 guifg=#fcaf3e
-hi IncSearch guibg=#ff3436 guifg=#fcafff
+hi IncSearch guifg=#2e3436 guibg=#d75f00
 " Window Elements
 hi StatusLine guifg=#2e3436 guibg=#babdb6 gui=none
 hi StatusLineNC guifg=#2e3436 guibg=#888a85 gui=none
