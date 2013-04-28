@@ -21,7 +21,6 @@ highlight ExtraWhitespace ctermbg=red guibg=red
 autocmd Syntax * syn match ExtraWhitespace /\s\+$\| \+\ze\t/
 
 "Highlight 81st column:
-set textwidth=79
 execute "set colorcolumn=".join(range(81, 335), ',')
 highlight ColorColumn ctermbg=235
 
