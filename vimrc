@@ -68,3 +68,14 @@ inoremap <tab> <c-r>=InsertTabWrapper()<cr>
 
 "Enable pathogen for smart package management stuff
 execute pathogen#infect()
+
+"------------------------------------------------------------------------------
+" Python mode specific options
+"------------------------------------------------------------------------------
+let g:pymode_lint_ignore = "E301,"
+" Map some keys to jump between errors in file
+nmap ! :PyLint<CR>
+nmap ]1 :cnext<CR>
+nmap [1 :cprev<CR>
+nmap [! :cfirst<CR>
+nmap ]! :clast<CR>
