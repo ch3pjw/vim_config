@@ -81,7 +81,7 @@ hi Directory guifg=#ffffff
 hi Comment guifg=#656763
 hi Constant guifg=#8ae234
 hi Number guifg=#8ae234
-hi Statement guifg=#729fcf gui=none
+hi Statement guifg=#5fafdf gui=none
 hi Identifier guifg=#ffffff
 hi PreProc guifg=#fcaf3e
 hi Function guifg=#fcaf3e
@@ -157,4 +157,4 @@ hi link cssColorAttr Constant
 hi link cssFontAttr Constant
 
 "Python
-hi pythonBuiltinObj guifg=#729fcf
+hi pythonBuiltinObj guifg=#5fafdf
