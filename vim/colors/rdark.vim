@@ -26,11 +26,11 @@ if exists('rdark_current_line') && rdark_current_line == 1
 endif
 
 " Default Colors
-hi Normal guifg=#babdb6 guibg=#1e2426
+hi Normal guifg=#bcbcbc guibg=#1e2426
 "hi NonText guifg=#2c3032 guibg=#2c3032 gui=none
 hi NonText guifg=#35393c guibg=#17191b gui=none
-hi Cursor guibg=#babdb6
-hi ICursor guibg=#babdb6
+hi Cursor guibg=#bcbcbc
+hi ICursor guibg=#bcbcbc
 
 " Search
 hi Search guifg=#2e3436 guibg=#fcaf3e
