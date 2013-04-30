@@ -157,4 +157,5 @@ hi link cssColorAttr Constant
 hi link cssFontAttr Constant
 
 "Python
-hi pythonBuiltinObj guifg=#5fafdf
+hi pythonBuiltinObj guifg=#ffaf00
+hi pythonFunction gui=bold guifg=#ffaf00
