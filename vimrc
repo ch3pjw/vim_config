@@ -73,6 +73,7 @@ execute pathogen#infect()
 " Python mode specific options
 "------------------------------------------------------------------------------
 let g:pymode_lint_ignore = "E301,"
+let g:pymode_lint_checker = 'pyflakes,pep8'
 " Map some keys to jump between errors in file
 nmap ! :PyLint<CR>
 nmap ]1 :cnext<CR>
