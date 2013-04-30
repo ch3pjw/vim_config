@@ -83,8 +83,8 @@ hi Constant guifg=#8ae234
 hi Number guifg=#8ae234
 hi Statement guifg=#5fafdf gui=none
 hi Identifier guifg=#ffffff
-hi PreProc guifg=#fcaf3e
-hi Function guifg=#fcaf3e
+hi PreProc guifg=#ffaf00
+hi Function guifg=#ffaf00
 hi Type guifg=#e3e7df gui=none
 hi Keyword guifg=#eeeeec
 hi Special guifg=#888a85
