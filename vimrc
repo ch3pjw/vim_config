@@ -32,7 +32,7 @@ match OverLength /\%80v.\+/
 
 "Highlight current line:
 set cursorline
-highlight CursorLine cterm=underline
+highlight CursorLine cterm=underline ctermbg=bg
 "Add more context around the current line when scrolling
 set scrolloff=3
 
