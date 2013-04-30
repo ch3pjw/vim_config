@@ -155,3 +155,6 @@ hi link cssBoxAttr Constant
 hi link cssTextAttr Constant
 hi link cssColorAttr Constant
 hi link cssFontAttr Constant
+
+"Python
+hi pythonBuiltinObj guifg=#729fcf
