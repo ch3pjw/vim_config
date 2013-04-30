@@ -58,7 +58,7 @@ hi DiffChange guibg=#2e3436
 hi DiffText guibg=#000000 gui=none
 
 " Folds
-hi Folded guibg=#00005f
+hi Folded guibg=#121212 guifg=#005f5f
 hi FoldColumn guifg=#3465a4 guibg=#000000
 
 " Specials
