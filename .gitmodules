@@ -1,6 +1,6 @@
 [submodule "vim/bundle/python-mode"]
 	path = vim/bundle/python-mode
-	url = git://github.com/ch3pjw/python-mode.git
+	url = git://github.com/klen/python-mode.git
 [submodule "vim/bundle/xterm-color-table"]
 	path = vim/bundle/xterm-color-table
 	url = https://github.com/guns/xterm-color-table.vim.git
