@@ -67,9 +67,10 @@ endfunction
 inoremap <tab> <c-r>=InsertTabWrapper()<cr>
 
 "make vim save and load the folding of the document each time it loads
-""also places the cursor in the last place that it was left.
-au BufWinLeave * mkview
-au BufWinEnter * silent loadview
+"also places the cursor in the last place that it was left.
+" FIXME: Fights with pymode opening up docs and stuff
+"au BufWinLeave * mkview
+"au BufWinEnter * silent loadview
 
 "Enable pathogen for smart package management stuff
 execute pathogen#infect()
@@ -78,9 +79,10 @@ execute pathogen#infect()
 " Python mode specific options
 "------------------------------------------------------------------------------
 let g:pymode_lint_ignore = "E301,"
-let g:pymode_lint_checker = 'pyflakes,pep8'
+let g:pymode_lint_checker = ['pyflakes', 'pep8', 'pep257', 'pylint']
+let g:pymode_lint_unmodified = 1
 " Map some keys to jump between errors in file
-nmap ! :PyLint<CR>
+nmap ! :PymodeLint<CR>
 nmap ]1 :cnext<CR>
 nmap [1 :cprev<CR>
 nmap [! :cfirst<CR>
